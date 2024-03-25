@@ -10,6 +10,7 @@ const Register = () => {
             method: 'POST',
             body: JSON.stringify({ username, password, email }),
             headers: { 'Content-Type': 'application/json' },
+            'Access-Control-Allow-Origin': 'true'
         });
 
         if (response.status === 200) {
