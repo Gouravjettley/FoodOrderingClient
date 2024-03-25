@@ -9,8 +9,10 @@ const Register = () => {
         const response = await fetch("https://food-ordering-api-beta.vercel.app/register", {
             method: 'POST',
             body: JSON.stringify({ username, password, email }),
-            headers: { 'Content-Type': 'application/json' },
+            headers: {
+            'Content-Type': 'application/json',
             'Access-Control-Allow-Origin': 'true'
+        },
         });
 
         if (response.status === 200) {
