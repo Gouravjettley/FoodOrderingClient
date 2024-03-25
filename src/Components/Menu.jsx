@@ -1,5 +1,4 @@
 import React from 'react';
-import menu from '../Api/Api';
 
 const Menu = () => {
   return (
