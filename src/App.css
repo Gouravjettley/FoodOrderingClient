@@ -165,7 +165,6 @@ nav a{
 }
 .register , .logout{
     text-decoration: none;
-    background-color: orangered;
     border-radius: 6px;
     color: #fff;
     padding:7px;
